@@ -1,0 +1,64 @@
+* {
+	font-family:arial,helvetica, sans-serif;
+	}
+.tl {
+	border-collapse:collapse;
+	margin-right: auto;
+	margin-left: auto;
+	size: 2em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow:hidden;
+	margin-bottom:70px;
+	margin-top:60px;
+	
+}
+.tl thead{
+	background-color:#8c8c8c;
+	text-align:left;
+	font-weight:bold;
+	color:white;
+}
+.tl th{
+	text-align:center;
+	
+}
+.tl td{
+	padding:12px 70px 5px;
+	text-align:center;
+}
+.tl tbody tr:nth-of-type(odd){
+	background-color:#d9d9d9;
+}
+.tl tbody tr:nth-of-type(even){
+	background-color:#a6a6a6;
+}
+.h1 {
+	text-align:center
+}
+#button	{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	background-color:#555555;
+	color:#f0f0f5;
+}
+.hb{
+	grid-column:1/2;
+	text-align:left;
+}
+.hp{
+	grid-column:3/4;
+	text-align:right;
+}
+.but1 {
+	font-size:20px;
+	text-decoration:none;
+	color:#f0f0f5;
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:20px;
+}
+#button .but1:hover{
+	background:#f0f0f5;
+	color:#555555;
+}
