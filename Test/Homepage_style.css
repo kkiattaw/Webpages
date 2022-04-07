@@ -1,0 +1,185 @@
+body{
+	margin:0;
+	font-family :arial,helvetica, sans-serif;
+	font-size:17px;
+	line-height:1.6;
+	color:#555555;
+}
+#landing{
+	background-image:url(../image/ab.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+#landing h1{
+	font-size:50px;
+}
+#landing p{
+	font-size:20px;
+	
+}
+#landing .button{
+	font-size:18px;
+	text-decoration:none;
+	color:#555555;
+	border:#555555 1px solid;
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:20px;
+}
+#landing .button:hover{
+	background:#555555;
+	color:#f0f0f5;
+}
+#intro {
+	padding:20px;
+	background:#555555;
+	color:#f0f0f5;
+	text-align:center;
+	font-size:20px;
+}
+#bkg {
+	padding:20px;
+	background:#c2d6d6;
+	color:#555555;
+	font-size:20px;
+}
+#background{
+	display:grid;
+	grid-template-columns:33.3% 33.3% 33.3%;
+}
+#background > div:nth-child(1){
+	background-image:url(../image/bd.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#background > div:nth-child(2){
+	background-image:url(../image/bkk5.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#background > div:nth-child(3){
+	background-image:url(../image/cats.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.bg:hover {
+	height:417;
+}
+#bg1{
+	color:#555555;
+}
+#bg1 .p1{
+	text-decoration:none;
+	color:#555555;
+}
+#bg2{
+	color:#e6e6e6;
+}
+#bg2 .p2{
+	text-decoration:none;
+	color:#e6e6e6;
+}
+#bg3{
+	color: burlywood;
+}
+#bg3 .p3{
+	text-decoration:none;
+	color: burlywood;
+}
+#fa {
+	padding:15px;
+	background:#c2d6d6;
+	color:#555555;
+	font-size:20px;
+}
+#animal{
+	display:grid;
+	grid-template-columns:33.3% 33.3% 33.3%;
+}
+#animal > div:nth-child(1){
+	background-image:url(../image/cat2.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#animal > div:nth-child(2){
+	background-image:url(../image/dog.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#animal > div:nth-child(3){
+	background-image:url(../image/orca.jpg);
+	text-align:center;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+.ani:hover{
+	height:417;
+}
+#a1 .l1{
+	text-decoration:none;
+	color:#555555;
+}
+#a2 .l2{
+	text-decoration:none;
+	color:#e6e6e6;
+}
+#a3 .l3{
+	text-decoration:none;
+	color:#ffb366;
+}
+#f {
+	padding:15px;
+	background:#c2d6d6;
+	color:#555555;
+	font-size:20px;
+}
+#food{
+	display:grid;
+	grid-template-columns:50% 50%;
+	background-color:#555555;
+	color:white;
+}
+.food1 ol {
+	list-style:circle;
+}
+.food2 ul{
+	list-style:circle;
+}
+#button2	{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	background-color:#f0f0f5;
+	color:#555555;
+}
+.hb{
+	grid-column:1/2;
+	text-align:left;
+}
+.tl{
+	grid-column:3/4;
+	text-align:right;
+}
+.but1 {
+	font-size:18px;
+	text-decoration:none;
+	color:#555555;
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:20px;
+}
+#button2 .but1:hover{
+	background:#555555;
+	color:#f0f0f5;
+}
