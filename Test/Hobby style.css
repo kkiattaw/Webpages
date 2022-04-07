@@ -1,0 +1,127 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body {
+	background: #595959;
+	color:#f0f0f5;
+	font-family:arial,helvetica, sans-serif;
+}
+
+h1 {
+	font-size:45px
+}
+h2 {
+	font-size: 45px;
+	font-weight: 350;
+	margin: 10px;
+}
+h3 {
+	font-size: 25px;
+}
+p {
+	font-size: 20px;
+}
+h2 span {
+	font-size: 30px;
+}
+.hobby {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows:min(0px, auto);
+}
+
+.hobby > div {
+	cursor: pointer;
+	height: 295px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.5s ease-in;
+}
+.hobby > div:hover {
+	opacity: 0.7;
+	transform: scale(0.98);
+}
+
+.g1{
+	grid-column:1/3;
+}
+
+.mh{
+	grid-column:3/4; 
+}	
+
+.ds{
+	grid-column:2/4 ;
+}
+
+.mb{
+	grid-column:1/1;
+}
+.ms{
+	grid-column:1/4;
+}
+.r{
+	grid-column:3/4;
+}
+.q1{
+	grid-column:1/3;
+}
+.pr{
+	grid-column:1/1;
+}
+.id{
+	grid-column:2/4;
+}
+.back{
+	grid-column:1/2;
+}
+.next{
+	grid-column:3/4;
+}
+.g1 {
+	background: url(../image/pg.jpg);
+	background-position:bottom;
+}
+.mh {
+	background: url(../image/ala.jpg);
+	background-position:left;
+}
+.ds {
+	background: url(../image/dsg1.jpg);
+	background-size: initial;
+}
+.mb {
+	background: url(../image/dota2.jpg);
+	background-position: top;
+}
+.ms {
+	background: url(../image/headphone.jpg);
+	background-position: center;
+}
+.r {
+	background: url(../image/q1.jpg);
+}
+.q1 {
+	background: url(../image/q1.jpg);
+}
+.pr {
+	background: url(../image/ig.jpg);
+	background-position:top;
+}
+.id {
+	background: url(../image/ig.jpg);
+	background-position:top;
+	text-align:center;
+}
+.button {
+	text-decoration:none;
+	color:#f0f0f5;
+}
